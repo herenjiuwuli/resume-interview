@@ -1,0 +1,18 @@
+node_modules
+dist
+.env
+.env.bak
+.vercel
+data
+# 运行时数据（面试记录含简历原文与对话，属敏感信息，不进 Git）
+server/data/records.json
+*.log
+.DS_Store
+
+# Python 测试环境
+.venv/
+__pycache__/
+*.pyc
+
+# pytest 缓存
+.pytest_cache/
